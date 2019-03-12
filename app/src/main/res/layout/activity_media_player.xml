@@ -4,14 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".mediaplayer.MediaPlayerActivity">
 
-    <Button
-        android:id="@+id/video_view_btn"
+    <SurfaceView
+        android:id="@+id/surface_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
+        android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>
